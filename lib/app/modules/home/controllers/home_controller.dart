@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 
 import '../../../data/models/add_task_model.dart';
+import '../../../data/models/tasks_model.dart';
 
 class HomeController extends GetxController {
   final taskList = <AddTaskModel>[
@@ -18,6 +19,10 @@ class HomeController extends GetxController {
   @override
   void onReady() {
     super.onReady();
+  }
+
+  void delete(TasksModel notesModel)async{
+    await notesModel.delete() ;
   }
 
   @override

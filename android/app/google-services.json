@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "107946950582",
+    "project_id": "todo-bae3d",
+    "storage_bucket": "todo-bae3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107946950582:android:d0f7378a7b999034e04b17",
+        "android_client_info": {
+          "package_name": "com.tanvir.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwG3WmIVh2gQs3jfRPSDr8X4jrFp8nmBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
